@@ -26,10 +26,6 @@ import socket
 TEST_CONFIG = False
 
 # ----------------------------------------------------------------------------------------------------------WANDB PARAMS
-if TEST_CONFIG:
-    BATCH_SIZE = 4  # 4
-else:
-    BATCH_SIZE = 32  # 64
 BUFFER_SIZE = 10
 EPOCHS = 100
 
@@ -51,6 +47,11 @@ if TEST_CONFIG or host == "piggypiggy" or host == "LORISPC":
     GPU_ID = 0
 else:
     GPU_ID = 1
+
+if TEST_CONFIG or host == "LORISPC":
+    BATCH_SIZE = 4
+else:
+    BATCH_SIZE = 64
 
 DISC_MODEL = "DECODER DSIM"
 
