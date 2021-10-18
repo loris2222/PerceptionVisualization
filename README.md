@@ -1,5 +1,5 @@
 # PerceptionVisualization
-This is an anonymized version of the repository for "Perception Visualization: Seeing Through the Eyes of a DNN".
+Implementation for "Perception Visualization: Seeing Through the Eyes of a DNN".
 
 ## Running
 1. In order to run these scripts you need to place the PASCAL VOC dataset in a folder called `./datasets/`. If you also want to use the default configuration please create folders `./models` and `./images`
