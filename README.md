@@ -16,3 +16,16 @@ Implementation for "Perception Visualization: Seeing Through the Eyes of a DNN".
 
 
 4. Now you can run and generate explanations using `test_decoder.py`
+
+## Citing
+
+If you use this in your work, please use this citation:
+
+```
+@article{giulivi2022perception,
+  title={Perception Visualization: Seeing Through the Eyes of a DNN},
+  author={Giulivi, Loris and Carman, Mark James and Boracchi, Giacomo},
+  journal={arXiv preprint arXiv:2204.09920},
+  year={2022}
+}
+```
